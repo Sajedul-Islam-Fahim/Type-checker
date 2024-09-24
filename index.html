@@ -27,13 +27,104 @@
             </div>
         </section>
 
-        <section class="play-ground">
-    
+        <section class="play-ground hidden">
+            <div class="flex flex-col items-center gap-20 pt-20">
+                <!--screen-->
+                <div class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313CC] bg-[#FFFFFFB3] ">
+                    <div class="flex justify-center">
+                        <p class="bg-[#2F2941] px-6 pb-4 text-white rounded-b-xl">Don't watch keyboard while playing....</p>
+                    </div>
+                    <div class="flex justify-center items-center h-full">
+                        <p class="text-black text-9xl">Y</p>
+                    </div>
+                </div>
+                <!--keyboard-->
+                <div>
+                    <div class="my-1 flex w-full justify-center gap-1">
+                        <kbd class="kbd">q</kbd>
+                        <kbd class="kbd">w</kbd>
+                        <kbd class="kbd">e</kbd>
+                        <kbd class="kbd">r</kbd>
+                        <kbd class="kbd">t</kbd>
+                        <kbd class="kbd">y</kbd>
+                        <kbd class="kbd">u</kbd>
+                        <kbd class="kbd">i</kbd>
+                        <kbd class="kbd">o</kbd>
+                        <kbd class="kbd">p</kbd>
+                      </div>
+                      <div class="my-1 flex w-full justify-center gap-1">
+                        <kbd class="kbd">a</kbd>
+                        <kbd class="kbd">s</kbd>
+                        <kbd class="kbd">d</kbd>
+                        <kbd class="kbd">f</kbd>
+                        <kbd class="kbd">g</kbd>
+                        <kbd class="kbd">h</kbd>
+                        <kbd class="kbd">j</kbd>
+                        <kbd class="kbd">k</kbd>
+                        <kbd class="kbd">l</kbd>
+                      </div>
+                      <div class="my-1 flex w-full justify-center gap-1">
+                        <kbd class="kbd">z</kbd>
+                        <kbd class="kbd">x</kbd>
+                        <kbd class="kbd">c</kbd>
+                        <kbd class="kbd">v</kbd>
+                        <kbd class="kbd">b</kbd>
+                        <kbd class="kbd">n</kbd>
+                        <kbd class="kbd">m</kbd>
+                        <kbd class="kbd">/</kbd>
+                      </div>
+                </div>
+                <!--keyboard end-->
+                <!--score-->
+                <div class="flex justify-between w-3/4">
+                    <button class="btn rounded-full bg-purple-300 text-white px-4">
+                        Life
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                        <span>1</span>
+                    </button>
+                    <button class="btn rounded-full bg-purple-700 text-white px-4">
+                        Score
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                        <span>1</span>
+                    </button>
+
+                </div>
+            </div>
         </section>
 
-        <section class="score">
-            
+        <section class="score flex justify-center items-center min-h-screen hidden">
+            <div class="text-white text-center space-y-6 bg-[#FFFFFF33] p-4 rounded-xl">
+                <h1 class="text-8xl">
+                    <span class="font-extrabold">Score:</span>
+                    <span>14</span>
+                </h1>
+                <button class="btn">Play Again</button>
+                <p>Practice will make you a Pro</p>
+            </div>
         </section>
     </main>
+    <script src="scripts/custom.js"></script>
 </body>
 </html>
